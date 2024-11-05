@@ -6,14 +6,13 @@
 //
 
 import UIKit
-
+@IBDesignable
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var buttonTwo: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        buttonTwo.applyStyle(.primary)
     }
-
-
 }
 

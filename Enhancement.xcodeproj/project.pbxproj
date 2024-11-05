@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */; };
+		1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Style.swift"; sourceTree = "<group>"; };
+		1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
 		153409502CD95B0B00460E3E /* Enhancement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enhancement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,9 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1518BA8D2CDAB8970099F2F5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */,
+				1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		153409472CD95B0B00460E3E = {
 			isa = PBXGroup;
 			children = (
+				1518BA8D2CDAB8970099F2F5 /* Extension */,
 				153409522CD95B0B00460E3E /* Enhancement */,
 				153409512CD95B0B00460E3E /* Products */,
 			);
@@ -132,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */,
+				1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
