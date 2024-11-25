@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
 
     var viewModel: LoginViewModelType
     
-    // MARK: - init
+    // MARK: - Init
     
    init(viewModel: LoginViewModelType) {
        self.viewModel = viewModel
