@@ -42,7 +42,7 @@ extension LoginViewModel: LoginViewModelOutput{
     
 }
 
-// MARK: - Private Handler
+// MARK: - Handler 
 
 extension LoginViewModel {
     func updateLoginButtonState() {
