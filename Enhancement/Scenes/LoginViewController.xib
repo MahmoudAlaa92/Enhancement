@@ -12,7 +12,7 @@
             <connections>
                 <outlet property="emailTextField" destination="rPZ-LD-ga2" id="TAX-gl-15o"/>
                 <outlet property="passwordTextField" destination="w2v-07-UaQ" id="xq8-sj-bEa"/>
-                <outlet property="submitButton" destination="LFd-pp-tei" id="hhE-Lx-Yyl"/>
+                <outlet property="submitButton" destination="ZMu-VI-Ph1" id="520-B9-8HS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -34,7 +34,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFd-pp-tei">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMu-VI-Ph1">
                             <rect key="frame" x="0.0" y="88" width="385" height="38.333333333333343"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="filled" title="Button"/>

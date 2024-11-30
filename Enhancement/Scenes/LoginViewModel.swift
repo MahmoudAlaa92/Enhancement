@@ -10,16 +10,14 @@ import Foundation
 class LoginViewModel {
 
    // MARK: - Properties
-    
-   var emailText: String = ""
-   var passwordText: String = ""
    
-   var isLoginEnabled: (Bool) -> Void = { _ in  }
-    
+   private var emailText: String = ""
+   private var passwordText: String = ""
+   private var isLoginEnabled: (Bool) -> Void = { _ in  }
 }
 
-// MARK: - LoginViewModelInput
-
+   // MARK: - LoginViewModelInput
+   
 extension LoginViewModel: LoginViewModelInput {
     func updateEmailTextField(_ text: String) {
         emailText = text
@@ -30,24 +28,23 @@ extension LoginViewModel: LoginViewModelInput {
         passwordText = text
         updateLoginButtonState()
     }
-    
 }
-// MARK: - LoginViewModelOutput
 
-extension LoginViewModel: LoginViewModelOutput{
+  // MARK: - LoginViewModelOutput
+  
+extension LoginViewModel: LoginViewModelOutput {
     func configureLoginEnabled(onEnabled: @escaping (Bool) -> Void) {
         isLoginEnabled = onEnabled
-        updateLoginButtonState()
     }
-    
 }
 
-// MARK: - Handler 
+
+  // MARK: - Private Handler
 
 extension LoginViewModel {
     func updateLoginButtonState() {
       let emailIsValid = !emailText.isEmpty
-      let passwordIsValid = !emailText.isEmpty
+      let passwordIsValid = !passwordText.isEmpty
       let buttonIsValid = emailIsValid && passwordIsValid
         
       isLoginEnabled(buttonIsValid)
