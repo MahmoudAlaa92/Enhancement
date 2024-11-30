@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         buttonTwo.applyStyle(.primary)
     }
+    @IBAction func showLoginPage(_ sender: UIButton) {
+        
+        let loginViewModel = LoginViewModel() 
+            
+            let loginVC = LoginViewController(viewModel: loginViewModel)
+            
+            present(loginVC, animated: true, completion: nil)
+    }
 }
 
 // removed the comment from here
