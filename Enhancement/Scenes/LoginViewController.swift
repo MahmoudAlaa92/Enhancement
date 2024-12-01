@@ -44,6 +44,23 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         bindTextField()
         bindViewModel()
+        
+        
+        Networking.share.fetchData(url: "https://fakestoreapi.com/carts", classType: [Carts].self) { result in
+            switch result {
+                
+            case .success(let ans):
+                guard let ans = ans else { return }
+                
+                for i in ans {
+                    print ("id: \(i.id) ,\n userId: \(i.userId) \n")
+                }
+                
+            case .failure(let error):
+                print("Error when fetch the data : '\(error.localizedDescription)")
+            }
+        }
+        
     }
 }
 
