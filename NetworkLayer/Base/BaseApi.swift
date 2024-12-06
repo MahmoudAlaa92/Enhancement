@@ -7,21 +7,25 @@
 
 import Foundation
 import Alamofire
-class BaseApi <T: TargetType> {
+class BaseApi<T: TargetType> {
     
     func fetchData<M: Decodable>(target: T ,responseClass: M.Type, completion: @escaping (Result<M?,Error>) -> Void) {
         let method = Alamofire.HTTPMethod(rawValue: target.method.rawValue)
         let headers = Alamofire.HTTPHeaders(target.headers ?? [:])
         let params = buildParams(task: target.task)
         
-        AF.request(target.baseURL + target.path, method: method, parameters: params.0, encoding: params.1, headers: headers).responseDecodable(of: responseClass.self) { response in //
+        AF.request(target.baseURL + target.path, method: method, parameters: params.0, encoding: params.1, headers: headers).validate().responseDecodable(of: responseClass.self) { response in //
+     
+            let statusCode = response.response?.statusCode
             
             switch response.result {
                 
             case .success(let result):
                 completion(.success(result))
             case .failure(let error):
-                completion(.failure(error))
+                let erorrDiscription = NSError(domain: target.baseURL, code: statusCode ?? 0, userInfo: [NSLocalizedDescriptionKey: error.localizedDescription])
+                
+                completion(.failure(erorrDiscription))
             }
         }
     }

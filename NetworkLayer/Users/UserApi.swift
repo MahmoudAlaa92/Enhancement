@@ -8,16 +8,16 @@
 import Foundation
 
 protocol UserApiProtocol {
-    func getUsers(complection: @escaping (Result<UsersResponse?, Error>) -> Void)
+    func getUsers(completion: @escaping (Result<BaseResponse<[UserModel]>?, Error>) -> Void)
 }
 
 class UserApi: BaseApi<UsersNetworking>, UserApiProtocol{
     
     // MARK: - Request
     
-    func getUsers(complection: @escaping (Result<UsersResponse?, Error>) -> Void) {
-        self.fetchData(target: .getUsers, responseClass: UsersResponse.self) { result in
-            complection(result)
+    func getUsers(completion: @escaping (Result<BaseResponse<[UserModel]>?, Error>) -> Void) {
+        self.fetchData(target: .getUsers, responseClass: BaseResponse<[UserModel]>.self) { result in
+            completion(result)
         }
     }
 }

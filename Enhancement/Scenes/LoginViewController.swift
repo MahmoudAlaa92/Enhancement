@@ -52,7 +52,7 @@ class LoginViewController: UIViewController {
             case .success(let result):
                 let Users = result?.data
                 for user in Users ?? [] {
-                    print("\(user.firstName) \(user.lastName) ")
+                    print("user name: \(String(describing: user.firstName)) last name: \(String(describing: user.lastName)) ")
                 }
             case .failure(let error):
                 print (error.localizedDescription)

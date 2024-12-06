@@ -13,8 +13,9 @@
 		151DF0F82CFF7BD100DB3409 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0F72CFF7BD100DB3409 /* BaseApi.swift */; };
 		151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0FA2CFF954700DB3409 /* UsersNetworking.swift */; };
 		151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0FD2CFF995900DB3409 /* UserModel.swift */; };
-		151DF1002CFF99D600DB3409 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0FF2CFF99D600DB3409 /* UsersResponse.swift */; };
 		151DF1022CFF9B8300DB3409 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF1012CFF9B8300DB3409 /* UserApi.swift */; };
+		153B54012D035B860052E9CE /* Costants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153B54002D035B860052E9CE /* Costants.swift */; };
+		153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153B54022D03988F0052E9CE /* BaseResponse.swift */; };
 		153DEC2D2CF3B81200037DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC242CF3B81200037DBF /* AppDelegate.swift */; };
 		153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC292CF3B81200037DBF /* SceneDelegate.swift */; };
 		153DEC2F2CF3B81200037DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC2A2CF3B81200037DBF /* ViewController.swift */; };
@@ -49,9 +50,10 @@
 		151DF0F72CFF7BD100DB3409 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
 		151DF0FA2CFF954700DB3409 /* UsersNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworking.swift; sourceTree = "<group>"; };
 		151DF0FD2CFF995900DB3409 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		151DF0FF2CFF99D600DB3409 /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
 		151DF1012CFF9B8300DB3409 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 		153409502CD95B0B00460E3E /* Enhancement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enhancement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153B54002D035B860052E9CE /* Costants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Costants.swift; sourceTree = "<group>"; };
+		153B54022D03988F0052E9CE /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		153DEC242CF3B81200037DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		153DEC252CF3B81200037DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153DEC262CF3B81200037DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				151DF0F52CFF78D100DB3409 /* TargetType.swift */,
 				151DF0F72CFF7BD100DB3409 /* BaseApi.swift */,
+				153B54022D03988F0052E9CE /* BaseResponse.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -100,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				151DF0FA2CFF954700DB3409 /* UsersNetworking.swift */,
-				151DF0FF2CFF99D600DB3409 /* UsersResponse.swift */,
 				151DF1012CFF9B8300DB3409 /* UserApi.swift */,
 			);
 			path = Users;
@@ -161,6 +163,7 @@
 		159DD8E92CFBA85F002586E7 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				153B54002D035B860052E9CE /* Costants.swift */,
 				151DF0FC2CFF994B00DB3409 /* Models */,
 				151DF0F92CFF952800DB3409 /* Users */,
 				151DF0F42CFF78C400DB3409 /* Base */,
@@ -254,9 +257,10 @@
 				153DEC2D2CF3B81200037DBF /* AppDelegate.swift in Sources */,
 				153DEC3D2CF3BBAC00037DBF /* LoginViewModelType.swift in Sources */,
 				159DD8ED2CFBB2A1002586E7 /* Networking.swift in Sources */,
-				151DF1002CFF99D600DB3409 /* UsersResponse.swift in Sources */,
 				151DF1022CFF9B8300DB3409 /* UserApi.swift in Sources */,
 				151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */,
+				153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */,
+				153B54012D035B860052E9CE /* Costants.swift in Sources */,
 				153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */,
 				153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */,
 				153DEC2F2CF3B81200037DBF /* ViewController.swift in Sources */,
