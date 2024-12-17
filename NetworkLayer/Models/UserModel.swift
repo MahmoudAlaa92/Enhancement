@@ -16,3 +16,4 @@ struct UserModel: Codable {
         case lastName   = "last_name"
     }
 }
+

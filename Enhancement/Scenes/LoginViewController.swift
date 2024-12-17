@@ -58,6 +58,7 @@ class LoginViewController: UIViewController {
                 print (error.localizedDescription)
             }
         }
+        print(ErrorMessage.genericError)
     }
 }
 
