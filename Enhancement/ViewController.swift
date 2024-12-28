@@ -10,9 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var buttonTwo: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonTwo.applyStyle(.primary)
+        buttonTwo.setTitle(constant.title, for: .normal)
+        buttonTwo.applyStyle(.secondary)
     }
     @IBAction func showLoginPage(_ sender: UIButton) {
         
