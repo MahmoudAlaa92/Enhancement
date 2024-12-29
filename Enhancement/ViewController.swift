@@ -11,9 +11,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var buttonTwo: UIButton!
     
+    @IBOutlet weak var picImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         buttonTwo.setTitle(constant.title, for: .normal)
         buttonTwo.applyStyle(.secondary)
     }

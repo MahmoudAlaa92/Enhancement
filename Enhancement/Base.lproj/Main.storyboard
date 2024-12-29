@@ -37,12 +37,24 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button3"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ke-QM-H1K">
+                                <rect key="frame" x="40" y="718" width="313" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="VvV-ch-pb8"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ke-QM-H1K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gQV-Gl-f0E"/>
+                            <constraint firstItem="0Ke-QM-H1K" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ygs-Ef-Lw7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Ke-QM-H1K" secondAttribute="trailing" constant="40" id="ysy-6w-m7T"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="buttonTwo" destination="u9i-Yd-Qcp" id="u2D-3U-Z9P"/>
+                        <outlet property="picImage" destination="0Ke-QM-H1K" id="3mW-MS-3sf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
