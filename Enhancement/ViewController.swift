@@ -13,11 +13,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var picImage: UIImageView!
     
+    @IBOutlet weak var textLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        buttonTwo.setTitle(constant.title, for: .normal)
+//        buttonTwo.setTitle(constant.title, for: .normal)
         buttonTwo.applyStyle(.secondary)
+        buttonTwo.backgroundColor = .O_OO
+        textLabel.font = .nunitoBold(size: 40)
+
     }
     @IBAction func showLoginPage(_ sender: UIButton) {
         

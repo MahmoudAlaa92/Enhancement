@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Enhancement
+
+  Created by Mahmoud Alaa on 31/12/2024.
+  
+*/
+
+"login.email.title" = "Email/ Phone";
+"login.password.title" = "Password";
+"login.button" = "Sign In";

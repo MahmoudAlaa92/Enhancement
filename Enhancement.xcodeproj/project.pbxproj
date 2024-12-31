@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09FEEF8E13E345105241B295 /* Pods_EnhancementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4794128696FE11BAD273092B /* Pods_EnhancementTests.framework */; };
+		150F1FDD2D23434800AD6C40 /* colors.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 150F1FDC2D23434800AD6C40 /* colors.stencil */; };
 		1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */; };
 		1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */; };
 		151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0F52CFF78D100DB3409 /* TargetType.swift */; };
@@ -27,12 +28,17 @@
 		153DEC392CF3BB4D00037DBF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC362CF3BB4D00037DBF /* LoginViewController.swift */; };
 		153DEC3D2CF3BBAC00037DBF /* LoginViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC3C2CF3BBAC00037DBF /* LoginViewModelType.swift */; };
 		153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */; };
-		155DA1A62D20E28C00941208 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DA1A52D20E28C00941208 /* XCAssets+Generated.swift */; };
-		159B39F22D209A6D00AE5333 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 159B39F02D209A6D00AE5333 /* Localizable.strings */; };
-		159B39FB2D20A6CB00AE5333 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159B39FA2D20A6CB00AE5333 /* Strings+Generated.swift */; };
 		159B39FF2D20B08A00AE5333 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159B39FE2D20B08A00AE5333 /* Colors.xcassets */; };
 		159DD8E52CFB9F0E002586E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 159DD8E42CFB9F0E002586E7 /* Alamofire */; };
 		159DD8ED2CFBB2A1002586E7 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159DD8EC2CFBB2A1002586E7 /* Networking.swift */; };
+		15A70BF62D2353EC0093A0B0 /* images.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 15A70BF52D2353EC0093A0B0 /* images.stencil */; };
+		15A70BFE2D23598C0093A0B0 /* Generated-Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A70BFD2D23598C0093A0B0 /* Generated-Colors.swift */; };
+		15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A70BFF2D235A770093A0B0 /* Generated-Images.swift */; };
+		15A70C092D23711C0093A0B0 /* Generated-Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A70C082D23711C0093A0B0 /* Generated-Fonts.swift */; };
+		15A70C102D2374AA0093A0B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15A70C0E2D2374AA0093A0B0 /* Localizable.strings */; };
+		15A70C132D2375EE0093A0B0 /* Generated-Localizable.swift in Resources */ = {isa = PBXBuildFile; fileRef = 15A70C112D2375EE0093A0B0 /* Generated-Localizable.swift */; };
+		15ADA5C02D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		15ADA5C42D21C2D00002F1A7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */; };
 		3005E2830249984055630CF8 /* Pods_Enhancement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165619F90188A561D5DA6623 /* Pods_Enhancement.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +69,7 @@
 		067A9FE780376BF417C69FB8 /* Pods-Enhancement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enhancement.debug.xcconfig"; path = "Target Support Files/Pods-Enhancement/Pods-Enhancement.debug.xcconfig"; sourceTree = "<group>"; };
 		110FB50B75B7E3E97F4CFE83 /* Pods-Enhancement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enhancement.release.xcconfig"; path = "Target Support Files/Pods-Enhancement/Pods-Enhancement.release.xcconfig"; sourceTree = "<group>"; };
 		150B95692D12305C0068662F /* EnhancementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnhancementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150F1FDC2D23434800AD6C40 /* colors.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.stencil; sourceTree = "<group>"; };
 		1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Style.swift"; sourceTree = "<group>"; };
 		1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
 		151DF0F52CFF78D100DB3409 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
@@ -84,11 +91,16 @@
 		153DEC372CF3BB4D00037DBF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		153DEC3C2CF3BBAC00037DBF /* LoginViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelType.swift; sourceTree = "<group>"; };
 		153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		155DA1A52D20E28C00941208 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
-		159B39F12D209A6D00AE5333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		159B39FA2D20A6CB00AE5333 /* Strings+Generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 		159B39FE2D20B08A00AE5333 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		159DD8EC2CFBB2A1002586E7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		15A70BF52D2353EC0093A0B0 /* images.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = images.stencil; sourceTree = "<group>"; };
+		15A70BFD2D23598C0093A0B0 /* Generated-Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generated-Colors.swift"; sourceTree = "<group>"; };
+		15A70BFF2D235A770093A0B0 /* Generated-Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generated-Images.swift"; sourceTree = "<group>"; };
+		15A70C082D23711C0093A0B0 /* Generated-Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generated-Fonts.swift"; sourceTree = "<group>"; };
+		15A70C0F2D2374AA0093A0B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		15A70C122D2375EE0093A0B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = en; path = "en.lproj/Generated-Localizable.swift"; sourceTree = "<group>"; };
+		15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		15FCEC4D2D123515004423BC /* Enhancement.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enhancement.xctestplan; sourceTree = "<group>"; };
 		165619F90188A561D5DA6623 /* Pods_Enhancement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enhancement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4794128696FE11BAD273092B /* Pods_EnhancementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnhancementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				15CFC43A2D20845D00B33FB2 /* Resources */,
-				15FCEC4D2D123515004423BC /* Enhancement.xctestplan */,
 				153DEC342CF3BA1900037DBF /* Enhancement */,
 				150B956A2D12305C0068662F /* EnhancementTests */,
 				153409512CD95B0B00460E3E /* Products */,
@@ -185,7 +196,6 @@
 		153DEC342CF3BA1900037DBF /* Enhancement */ = {
 			isa = PBXGroup;
 			children = (
-				159B39FA2D20A6CB00AE5333 /* Strings+Generated.swift */,
 				1518BA8D2CDAB8970099F2F5 /* Extension */,
 				159DD8E92CFBA85F002586E7 /* NetworkLayer */,
 				153DEC352CF3BAA000037DBF /* Scenes */,
@@ -195,7 +205,7 @@
 				153DEC282CF3B81200037DBF /* Main.storyboard */,
 				153DEC292CF3B81200037DBF /* SceneDelegate.swift */,
 				153DEC2A2CF3B81200037DBF /* ViewController.swift */,
-				159B39F02D209A6D00AE5333 /* Localizable.strings */,
+				15ADA5C92D21EF630002F1A7 /* Tests */,
 			);
 			path = Enhancement;
 			sourceTree = "<group>";
@@ -223,12 +233,68 @@
 			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
+		15A70BF72D2355AE0093A0B0 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				150F1FDC2D23434800AD6C40 /* colors.stencil */,
+				159B39FE2D20B08A00AE5333 /* Colors.xcassets */,
+				15A70BFD2D23598C0093A0B0 /* Generated-Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		15A70BF82D2355C20093A0B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15A70BF52D2353EC0093A0B0 /* images.stencil */,
+				153DEC252CF3B81200037DBF /* images.xcassets */,
+				15A70BFF2D235A770093A0B0 /* Generated-Images.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		15A70C012D235B3C0093A0B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */,
+				15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */,
+				15A70C082D23711C0093A0B0 /* Generated-Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		15A70C0A2D2373620093A0B0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				15A70C112D2375EE0093A0B0 /* Generated-Localizable.swift */,
+				15A70C0E2D2374AA0093A0B0 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		15ADA5C52D21E9E30002F1A7 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				15A70BF72D2355AE0093A0B0 /* Colors */,
+				15A70C012D235B3C0093A0B0 /* Fonts */,
+				15A70BF82D2355C20093A0B0 /* Images */,
+				15A70C0A2D2373620093A0B0 /* Localization */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		15ADA5C92D21EF630002F1A7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15FCEC4D2D123515004423BC /* Enhancement.xctestplan */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		15CFC43A2D20845D00B33FB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				155DA1A52D20E28C00941208 /* XCAssets+Generated.swift */,
-				153DEC252CF3B81200037DBF /* images.xcassets */,
-				159B39FE2D20B08A00AE5333 /* Colors.xcassets */,
+				15ADA5C52D21E9E30002F1A7 /* SwiftGen */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,7 +346,6 @@
 			buildConfigurationList = 153409632CD95B0E00460E3E /* Build configuration list for PBXNativeTarget "Enhancement" */;
 			buildPhases = (
 				DC2E4B2F18A1CA49D7E332FF /* [CP] Check Pods Manifest.lock */,
-				155DA1A42D20DA4C00941208 /* SwiftGen */,
 				1534094C2CD95B0B00460E3E /* Sources */,
 				1534094D2CD95B0B00460E3E /* Frameworks */,
 				1534094E2CD95B0B00460E3E /* Resources */,
@@ -352,9 +417,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159B39F22D209A6D00AE5333 /* Localizable.strings in Resources */,
+				15ADA5C02D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
 				153DEC382CF3BB4D00037DBF /* LoginViewController.xib in Resources */,
+				15A70BF62D2353EC0093A0B0 /* images.stencil in Resources */,
+				15ADA5C42D21C2D00002F1A7 /* Nunito-Bold.ttf in Resources */,
+				15A70C132D2375EE0093A0B0 /* Generated-Localizable.swift in Resources */,
 				153DEC302CF3B81200037DBF /* images.xcassets in Resources */,
+				15A70C102D2374AA0093A0B0 /* Localizable.strings in Resources */,
+				150F1FDD2D23434800AD6C40 /* colors.stencil in Resources */,
 				153DEC322CF3B81200037DBF /* LaunchScreen.storyboard in Resources */,
 				153DEC332CF3B81200037DBF /* Main.storyboard in Resources */,
 				159B39FF2D20B08A00AE5333 /* Colors.xcassets in Resources */,
@@ -364,24 +434,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		155DA1A42D20DA4C00941208 /* SwiftGen */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftGen;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
-		};
 		DC2E4B2F18A1CA49D7E332FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +493,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */,
+				15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */,
 				153DEC392CF3BB4D00037DBF /* LoginViewController.swift in Sources */,
 				153DEC2D2CF3B81200037DBF /* AppDelegate.swift in Sources */,
 				153DEC3D2CF3BBAC00037DBF /* LoginViewModelType.swift in Sources */,
@@ -448,15 +501,15 @@
 				151DF1022CFF9B8300DB3409 /* UserApi.swift in Sources */,
 				151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */,
 				153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */,
+				15A70BFE2D23598C0093A0B0 /* Generated-Colors.swift in Sources */,
 				153B54012D035B860052E9CE /* Costants.swift in Sources */,
-				155DA1A62D20E28C00941208 /* XCAssets+Generated.swift in Sources */,
 				153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */,
 				153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */,
-				159B39FB2D20A6CB00AE5333 /* Strings+Generated.swift in Sources */,
 				153DEC2F2CF3B81200037DBF /* ViewController.swift in Sources */,
 				151DF0F82CFF7BD100DB3409 /* BaseApi.swift in Sources */,
 				1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */,
 				151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */,
+				15A70C092D23711C0093A0B0 /* Generated-Fonts.swift in Sources */,
 				1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,12 +541,20 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		159B39F02D209A6D00AE5333 /* Localizable.strings */ = {
+		15A70C0E2D2374AA0093A0B0 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				159B39F12D209A6D00AE5333 /* en */,
+				15A70C0F2D2374AA0093A0B0 /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		15A70C112D2375EE0093A0B0 /* Generated-Localizable.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A70C122D2375EE0093A0B0 /* en */,
+			);
+			name = "Generated-Localizable.swift";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,0 +1,20 @@
+//
+//  colors.stencil
+//  Enhancement
+//
+//  Created by Mahmoud Alaa on 31/12/2024.
+//
+
+import UIKit
+
+// MARK: - Colors
+
+extension UIColor {
+    {% for color in catalogs.first.assets %}
+
+      static var {{color.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: UIColor {
+        UIColor(named: "{{ color.name }}")!
+      }
+    {% endfor %}
+    
+  }

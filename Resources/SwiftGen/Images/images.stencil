@@ -1,0 +1,19 @@
+//
+//  images.stencil
+//  Enhancement
+//
+//  Created by Mahmoud Alaa on 31/12/2024.
+//
+
+import UIKit
+
+// MARK: - Images
+
+extension UIImage {
+    {% for image in catalogs.first.assets %}
+    
+    static var {{image.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: UIImage {
+        UIImage(named: "{{ image.name }}")!
+    }
+    {% endfor %}
+}
