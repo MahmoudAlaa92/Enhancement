@@ -39,6 +39,8 @@
 		15A70C132D2375EE0093A0B0 /* Generated-Localizable.swift in Resources */ = {isa = PBXBuildFile; fileRef = 15A70C112D2375EE0093A0B0 /* Generated-Localizable.swift */; };
 		15ADA5C02D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		15ADA5C42D21C2D00002F1A7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */; };
+		15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */; };
+		15E561892D3C6B3100281732 /* VCPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561882D3C6B3100281732 /* VCPreview.swift */; };
 		3005E2830249984055630CF8 /* Pods_Enhancement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165619F90188A561D5DA6623 /* Pods_Enhancement.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +103,8 @@
 		15A70C122D2375EE0093A0B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = en; path = "en.lproj/Generated-Localizable.swift"; sourceTree = "<group>"; };
 		15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithCombine.swift; sourceTree = "<group>"; };
+		15E561882D3C6B3100281732 /* VCPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPreview.swift; sourceTree = "<group>"; };
 		15FCEC4D2D123515004423BC /* Enhancement.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enhancement.xctestplan; sourceTree = "<group>"; };
 		165619F90188A561D5DA6623 /* Pods_Enhancement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enhancement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4794128696FE11BAD273092B /* Pods_EnhancementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnhancementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,7 +209,9 @@
 				153DEC282CF3B81200037DBF /* Main.storyboard */,
 				153DEC292CF3B81200037DBF /* SceneDelegate.swift */,
 				153DEC2A2CF3B81200037DBF /* ViewController.swift */,
+				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
 				15ADA5C92D21EF630002F1A7 /* Tests */,
+				15E561882D3C6B3100281732 /* VCPreview.swift */,
 			);
 			path = Enhancement;
 			sourceTree = "<group>";
@@ -502,6 +508,7 @@
 				151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */,
 				153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */,
 				15A70BFE2D23598C0093A0B0 /* Generated-Colors.swift in Sources */,
+				15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */,
 				153B54012D035B860052E9CE /* Costants.swift in Sources */,
 				153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */,
 				153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */,
@@ -510,6 +517,7 @@
 				1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */,
 				151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */,
 				15A70C092D23711C0093A0B0 /* Generated-Fonts.swift in Sources */,
+				15E561892D3C6B3100281732 /* VCPreview.swift in Sources */,
 				1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
