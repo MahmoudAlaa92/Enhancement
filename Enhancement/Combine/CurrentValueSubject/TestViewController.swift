@@ -36,7 +36,6 @@ class TestViewController: UIViewController {
     
     private let confirmBtn: UIButton = {
         let btn = UIButton()
-        btn.addTarget(self, action: #selector(confirmDidTouch), for: .touchUpInside)
         btn.translatesAutoresizingMaskIntoConstraints = false
         btn.layer.cornerRadius = 8
         btn.setTitle("Confirm", for: .normal)
@@ -81,6 +80,7 @@ class TestViewController: UIViewController {
 private extension TestViewController {
     
     func setup() {
+        confirmBtn.addTarget(self, action: #selector(confirmDidTouch), for: .touchUpInside)
         
         formContainerStackVw.addArrangedSubview(firstNameTxtField)
         formContainerStackVw.addArrangedSubview(lastNameTxtField)

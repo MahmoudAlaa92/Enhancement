@@ -41,6 +41,8 @@
 		15ADA5C42D21C2D00002F1A7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */; };
 		15D631F22DA6A9210051582C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F12DA6A9210051582C /* TestViewController.swift */; };
 		15D631F52DA6A95A0051582C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F42DA6A95A0051582C /* Person.swift */; };
+		15D631F82DA6AC500051582C /* PassThroughSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */; };
+		15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F92DA6AF2D0051582C /* CommentsViewController.swift */; };
 		15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */; };
 		15E561892D3C6B3100281732 /* VCPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561882D3C6B3100281732 /* VCPreview.swift */; };
 		3005E2830249984055630CF8 /* Pods_Enhancement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165619F90188A561D5DA6623 /* Pods_Enhancement.framework */; };
@@ -107,6 +109,8 @@
 		15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		15D631F12DA6A9210051582C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		15D631F42DA6A95A0051582C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughSubjectViewController.swift; sourceTree = "<group>"; };
+		15D631F92DA6AF2D0051582C /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithCombine.swift; sourceTree = "<group>"; };
 		15E561882D3C6B3100281732 /* VCPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPreview.swift; sourceTree = "<group>"; };
 		15FCEC4D2D123515004423BC /* Enhancement.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enhancement.xctestplan; sourceTree = "<group>"; };
@@ -312,6 +316,7 @@
 		15D631F02DA6A9080051582C /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				15D631F62DA6AC2D0051582C /* PasssThroughSubject */,
 				15D631F32DA6A93F0051582C /* CurrentValueSubject */,
 				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
 			);
@@ -325,6 +330,15 @@
 				15D631F42DA6A95A0051582C /* Person.swift */,
 			);
 			path = CurrentValueSubject;
+			sourceTree = "<group>";
+		};
+		15D631F62DA6AC2D0051582C /* PasssThroughSubject */ = {
+			isa = PBXGroup;
+			children = (
+				15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */,
+				15D631F92DA6AF2D0051582C /* CommentsViewController.swift */,
+			);
+			path = PasssThroughSubject;
 			sourceTree = "<group>";
 		};
 		8A8F0B0B95B1D5CC74AB37B7 /* Frameworks */ = {
@@ -520,6 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D631F82DA6AC500051582C /* PassThroughSubjectViewController.swift in Sources */,
 				151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */,
 				15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */,
 				15D631F22DA6A9210051582C /* TestViewController.swift in Sources */,
@@ -542,6 +557,7 @@
 				151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */,
 				15A70C092D23711C0093A0B0 /* Generated-Fonts.swift in Sources */,
 				15E561892D3C6B3100281732 /* VCPreview.swift in Sources */,
+				15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */,
 				1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
