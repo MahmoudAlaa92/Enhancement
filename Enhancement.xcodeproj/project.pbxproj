@@ -39,6 +39,8 @@
 		15A70C132D2375EE0093A0B0 /* Generated-Localizable.swift in Resources */ = {isa = PBXBuildFile; fileRef = 15A70C112D2375EE0093A0B0 /* Generated-Localizable.swift */; };
 		15ADA5C02D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		15ADA5C42D21C2D00002F1A7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */; };
+		15D631F22DA6A9210051582C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F12DA6A9210051582C /* TestViewController.swift */; };
+		15D631F52DA6A95A0051582C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F42DA6A95A0051582C /* Person.swift */; };
 		15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */; };
 		15E561892D3C6B3100281732 /* VCPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561882D3C6B3100281732 /* VCPreview.swift */; };
 		3005E2830249984055630CF8 /* Pods_Enhancement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165619F90188A561D5DA6623 /* Pods_Enhancement.framework */; };
@@ -103,6 +105,8 @@
 		15A70C122D2375EE0093A0B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = en; path = "en.lproj/Generated-Localizable.swift"; sourceTree = "<group>"; };
 		15ADA5BF2D21B7D60002F1A7 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		15ADA5C32D21C2D00002F1A7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		15D631F12DA6A9210051582C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		15D631F42DA6A95A0051582C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithCombine.swift; sourceTree = "<group>"; };
 		15E561882D3C6B3100281732 /* VCPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPreview.swift; sourceTree = "<group>"; };
 		15FCEC4D2D123515004423BC /* Enhancement.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enhancement.xctestplan; sourceTree = "<group>"; };
@@ -203,13 +207,13 @@
 				1518BA8D2CDAB8970099F2F5 /* Extension */,
 				159DD8E92CFBA85F002586E7 /* NetworkLayer */,
 				153DEC352CF3BAA000037DBF /* Scenes */,
+				15D631F02DA6A9080051582C /* Combine */,
 				153DEC242CF3B81200037DBF /* AppDelegate.swift */,
 				153DEC262CF3B81200037DBF /* Info.plist */,
 				153DEC272CF3B81200037DBF /* LaunchScreen.storyboard */,
 				153DEC282CF3B81200037DBF /* Main.storyboard */,
 				153DEC292CF3B81200037DBF /* SceneDelegate.swift */,
 				153DEC2A2CF3B81200037DBF /* ViewController.swift */,
-				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
 				15ADA5C92D21EF630002F1A7 /* Tests */,
 				15E561882D3C6B3100281732 /* VCPreview.swift */,
 			);
@@ -303,6 +307,24 @@
 				15ADA5C52D21E9E30002F1A7 /* SwiftGen */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		15D631F02DA6A9080051582C /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				15D631F32DA6A93F0051582C /* CurrentValueSubject */,
+				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		15D631F32DA6A93F0051582C /* CurrentValueSubject */ = {
+			isa = PBXGroup;
+			children = (
+				15D631F12DA6A9210051582C /* TestViewController.swift */,
+				15D631F42DA6A95A0051582C /* Person.swift */,
+			);
+			path = CurrentValueSubject;
 			sourceTree = "<group>";
 		};
 		8A8F0B0B95B1D5CC74AB37B7 /* Frameworks */ = {
@@ -500,12 +522,14 @@
 			files = (
 				151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */,
 				15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */,
+				15D631F22DA6A9210051582C /* TestViewController.swift in Sources */,
 				153DEC392CF3BB4D00037DBF /* LoginViewController.swift in Sources */,
 				153DEC2D2CF3B81200037DBF /* AppDelegate.swift in Sources */,
 				153DEC3D2CF3BBAC00037DBF /* LoginViewModelType.swift in Sources */,
 				159DD8ED2CFBB2A1002586E7 /* Networking.swift in Sources */,
 				151DF1022CFF9B8300DB3409 /* UserApi.swift in Sources */,
 				151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */,
+				15D631F52DA6A95A0051582C /* Person.swift in Sources */,
 				153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */,
 				15A70BFE2D23598C0093A0B0 /* Generated-Colors.swift in Sources */,
 				15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */,
