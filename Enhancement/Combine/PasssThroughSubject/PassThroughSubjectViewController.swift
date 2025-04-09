@@ -31,12 +31,15 @@ class PassThroughSubjectViewController: UIViewController {
         stackVw.translatesAutoresizingMaskIntoConstraints = false
         return stackVw
     }()
-    /// subscription
-    private let commentViewModel = CommentsViewController()
-    
+    ///
+    private var subscription = Set<AnyCancellable>()
+    private lazy var accountViewModel = AccountViewModel()
+    private lazy var commentViewModel = CommentsViewModel(manager: accountViewModel)
+    // MARK: - Lifecycle
     override func loadView() {
         super.loadView()
         setup()
+        accountSubscription()
     }
     
     @objc
@@ -44,7 +47,8 @@ class PassThroughSubjectViewController: UIViewController {
         commentViewModel.showComment(message: commentTxtVw.text)
     }
 }
-
+// MARK: - Configuration
+//
 private extension PassThroughSubjectViewController {
     
     func setup() {
@@ -66,5 +70,15 @@ private extension PassThroughSubjectViewController {
             formContainerStackVw.bottomAnchor.constraint(equalTo: view.bottomAnchor,
                                                          constant: -44)
         ])
+    }
+    ///
+    func accountSubscription() {
+        accountViewModel
+            .AccountState
+            .sink { state in
+                if state == .banned {
+                    self.showAlert(message: "Sad")
+                }
+            }.store(in: &subscription)
     }
 }
