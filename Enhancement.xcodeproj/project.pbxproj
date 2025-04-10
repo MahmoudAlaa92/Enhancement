@@ -28,6 +28,8 @@
 		153DEC392CF3BB4D00037DBF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC362CF3BB4D00037DBF /* LoginViewController.swift */; };
 		153DEC3D2CF3BBAC00037DBF /* LoginViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC3C2CF3BBAC00037DBF /* LoginViewModelType.swift */; };
 		153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */; };
+		159940AA2DA7E0F000D69AD1 /* MultithreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159940A92DA7E0F000D69AD1 /* MultithreadingViewController.swift */; };
+		159940AD2DA7E6CD00D69AD1 /* downloadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159940AC2DA7E6CD00D69AD1 /* downloadImageViewModel.swift */; };
 		159B39FF2D20B08A00AE5333 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159B39FE2D20B08A00AE5333 /* Colors.xcassets */; };
 		159DD8E52CFB9F0E002586E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 159DD8E42CFB9F0E002586E7 /* Alamofire */; };
 		159DD8ED2CFBB2A1002586E7 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159DD8EC2CFBB2A1002586E7 /* Networking.swift */; };
@@ -99,6 +101,8 @@
 		153DEC372CF3BB4D00037DBF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		153DEC3C2CF3BBAC00037DBF /* LoginViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelType.swift; sourceTree = "<group>"; };
 		153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		159940A92DA7E0F000D69AD1 /* MultithreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingViewController.swift; sourceTree = "<group>"; };
+		159940AC2DA7E6CD00D69AD1 /* downloadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = downloadImageViewModel.swift; sourceTree = "<group>"; };
 		159B39FE2D20B08A00AE5333 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		159DD8EC2CFBB2A1002586E7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		15A70BF52D2353EC0093A0B0 /* images.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = images.stencil; sourceTree = "<group>"; };
@@ -240,6 +244,31 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		159940A72DA7E0B100D69AD1 /* Starting */ = {
+			isa = PBXGroup;
+			children = (
+				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
+			);
+			path = Starting;
+			sourceTree = "<group>";
+		};
+		159940A82DA7E0BF00D69AD1 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				159940A92DA7E0F000D69AD1 /* MultithreadingViewController.swift */,
+				159940AB2DA7E69A00D69AD1 /* ViewModel */,
+			);
+			path = Multithreading;
+			sourceTree = "<group>";
+		};
+		159940AB2DA7E69A00D69AD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				159940AC2DA7E6CD00D69AD1 /* downloadImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		159DD8E92CFBA85F002586E7 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,9 +350,10 @@
 		15D631F02DA6A9080051582C /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				159940A82DA7E0BF00D69AD1 /* Multithreading */,
+				159940A72DA7E0B100D69AD1 /* Starting */,
 				15D631F62DA6AC2D0051582C /* PasssThroughSubject */,
 				15D631F32DA6A93F0051582C /* CurrentValueSubject */,
-				15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -569,8 +599,10 @@
 				151DF0FE2CFF995900DB3409 /* UserModel.swift in Sources */,
 				15D631F52DA6A95A0051582C /* Person.swift in Sources */,
 				153B54032D03988F0052E9CE /* BaseResponse.swift in Sources */,
+				159940AA2DA7E0F000D69AD1 /* MultithreadingViewController.swift in Sources */,
 				15A70BFE2D23598C0093A0B0 /* Generated-Colors.swift in Sources */,
 				15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */,
+				159940AD2DA7E6CD00D69AD1 /* downloadImageViewModel.swift in Sources */,
 				153B54012D035B860052E9CE /* Costants.swift in Sources */,
 				153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */,
 				153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */,
