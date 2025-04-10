@@ -30,6 +30,7 @@
 		153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */; };
 		159940AA2DA7E0F000D69AD1 /* MultithreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159940A92DA7E0F000D69AD1 /* MultithreadingViewController.swift */; };
 		159940AD2DA7E6CD00D69AD1 /* downloadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159940AC2DA7E6CD00D69AD1 /* downloadImageViewModel.swift */; };
+		159940AF2DA802A100D69AD1 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159940AE2DA802A100D69AD1 /* CommentsViewModel.swift */; };
 		159B39FF2D20B08A00AE5333 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159B39FE2D20B08A00AE5333 /* Colors.xcassets */; };
 		159DD8E52CFB9F0E002586E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 159DD8E42CFB9F0E002586E7 /* Alamofire */; };
 		159DD8ED2CFBB2A1002586E7 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159DD8EC2CFBB2A1002586E7 /* Networking.swift */; };
@@ -44,11 +45,9 @@
 		15D631F22DA6A9210051582C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F12DA6A9210051582C /* TestViewController.swift */; };
 		15D631F52DA6A95A0051582C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F42DA6A95A0051582C /* Person.swift */; };
 		15D631F82DA6AC500051582C /* PassThroughSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */; };
-		15D631FA2DA6AF2D0051582C /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F92DA6AF2D0051582C /* CommentsViewModel.swift */; };
+		15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F92DA6AF2D0051582C /* CommentsViewController.swift */; };
 		15D631FD2DA6C9540051582C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631FC2DA6C9540051582C /* AccountViewModel.swift */; };
 		15D632002DA6CBAE0051582C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631FF2DA6CBAE0051582C /* Alert.swift */; };
-
-		15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D631F92DA6AF2D0051582C /* CommentsViewController.swift */; };
 		15E561872D3C6A9600281732 /* ViewControllerWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */; };
 		15E561892D3C6B3100281732 /* VCPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E561882D3C6B3100281732 /* VCPreview.swift */; };
 		3005E2830249984055630CF8 /* Pods_Enhancement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165619F90188A561D5DA6623 /* Pods_Enhancement.framework */; };
@@ -105,6 +104,7 @@
 		153DEC3E2CF3BBB800037DBF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		159940A92DA7E0F000D69AD1 /* MultithreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingViewController.swift; sourceTree = "<group>"; };
 		159940AC2DA7E6CD00D69AD1 /* downloadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = downloadImageViewModel.swift; sourceTree = "<group>"; };
+		159940AE2DA802A100D69AD1 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
 		159B39FE2D20B08A00AE5333 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		159DD8EC2CFBB2A1002586E7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		15A70BF52D2353EC0093A0B0 /* images.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = images.stencil; sourceTree = "<group>"; };
@@ -118,10 +118,9 @@
 		15D631F12DA6A9210051582C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		15D631F42DA6A95A0051582C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughSubjectViewController.swift; sourceTree = "<group>"; };
-		15D631F92DA6AF2D0051582C /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		15D631F92DA6AF2D0051582C /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		15D631FC2DA6C9540051582C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		15D631FF2DA6CBAE0051582C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		15D631F92DA6AF2D0051582C /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		15E561862D3C6A9600281732 /* ViewControllerWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithCombine.swift; sourceTree = "<group>"; };
 		15E561882D3C6B3100281732 /* VCPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPreview.swift; sourceTree = "<group>"; };
 		15FCEC4D2D123515004423BC /* Enhancement.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Enhancement.xctestplan; sourceTree = "<group>"; };
@@ -374,9 +373,8 @@
 			isa = PBXGroup;
 			children = (
 				15D631F72DA6AC500051582C /* PassThroughSubjectViewController.swift */,
-				15D631F92DA6AF2D0051582C /* CommentsViewModel.swift */,
-				15D631FB2DA6C93B0051582C /* ViewModel */,
 				15D631F92DA6AF2D0051582C /* CommentsViewController.swift */,
+				15D631FB2DA6C93B0051582C /* ViewModel */,
 			);
 			path = PasssThroughSubject;
 			sourceTree = "<group>";
@@ -385,6 +383,7 @@
 			isa = PBXGroup;
 			children = (
 				15D631FC2DA6C9540051582C /* AccountViewModel.swift */,
+				159940AE2DA802A100D69AD1 /* CommentsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -593,6 +592,7 @@
 				15D631F82DA6AC500051582C /* PassThroughSubjectViewController.swift in Sources */,
 				151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */,
 				15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */,
+				159940AF2DA802A100D69AD1 /* CommentsViewModel.swift in Sources */,
 				15D631F22DA6A9210051582C /* TestViewController.swift in Sources */,
 				153DEC392CF3BB4D00037DBF /* LoginViewController.swift in Sources */,
 				153DEC2D2CF3B81200037DBF /* AppDelegate.swift in Sources */,
@@ -616,7 +616,7 @@
 				151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */,
 				15A70C092D23711C0093A0B0 /* Generated-Fonts.swift in Sources */,
 				15E561892D3C6B3100281732 /* VCPreview.swift in Sources */,
-				15D631FA2DA6AF2D0051582C /* CommentsViewModel.swift in Sources */,
+				15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */,
 				15D631FD2DA6C9540051582C /* AccountViewModel.swift in Sources */,
 				15D631FA2DA6AF2D0051582C /* CommentsViewController.swift in Sources */,
 				1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */,

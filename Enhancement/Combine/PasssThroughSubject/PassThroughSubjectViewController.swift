@@ -40,14 +40,6 @@ class PassThroughSubjectViewController: UIViewController {
         super.loadView()
         setup()
         accountSubscription()
-
-    /// subscription
-    private let commentViewModel = CommentsViewController()
-    
-    override func loadView() {
-        super.loadView()
-        setup()
-
     }
     
     @objc
@@ -57,7 +49,6 @@ class PassThroughSubjectViewController: UIViewController {
 }
 // MARK: - Configuration
 //
-
 private extension PassThroughSubjectViewController {
     
     func setup() {
