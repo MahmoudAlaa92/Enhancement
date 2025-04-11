@@ -18,9 +18,14 @@ final class DonwloadImageViewModel {
 //
  extension DonwloadImageViewModel {
     func downloadImage(url: String) {
+        
+        guard let validURL = URL(string: url) else {
+            print("Error in Url")
+            return
+          }
         URLSession
             .shared
-            .dataTaskPublisher(for: URL(string: url)!)
+            .dataTaskPublisher(for: validURL)
             .subscribe(on: DispatchQueue.global(qos: .background))
             .handleEvents(receiveSubscription: { _ in
                 print("Startingn the subscription on main thread: \(Thread.isMainThread)")

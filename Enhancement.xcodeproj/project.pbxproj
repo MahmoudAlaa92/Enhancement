@@ -11,6 +11,8 @@
 		150F1FDD2D23434800AD6C40 /* colors.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 150F1FDC2D23434800AD6C40 /* colors.stencil */; };
 		1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */; };
 		1518BA8F2CDAB9430099F2F5 /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */; };
+		151A5F632DA8EE7A003C7BAD /* FutureAndDefferedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A5F622DA8EE7A003C7BAD /* FutureAndDefferedViewController.swift */; };
+		151A5F662DA905EC003C7BAD /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151A5F652DA905EC003C7BAD /* NotificationViewModel.swift */; };
 		151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0F52CFF78D100DB3409 /* TargetType.swift */; };
 		151DF0F82CFF7BD100DB3409 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0F72CFF7BD100DB3409 /* BaseApi.swift */; };
 		151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0FA2CFF954700DB3409 /* UsersNetworking.swift */; };
@@ -83,6 +85,8 @@
 		150F1FDC2D23434800AD6C40 /* colors.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.stencil; sourceTree = "<group>"; };
 		1518BA772CDA8C5A0099F2F5 /* Button+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Style.swift"; sourceTree = "<group>"; };
 		1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		151A5F622DA8EE7A003C7BAD /* FutureAndDefferedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureAndDefferedViewController.swift; sourceTree = "<group>"; };
+		151A5F652DA905EC003C7BAD /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		151DF0F52CFF78D100DB3409 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		151DF0F72CFF7BD100DB3409 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
 		151DF0FA2CFF954700DB3409 /* UsersNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworking.swift; sourceTree = "<group>"; };
@@ -165,6 +169,23 @@
 				1518BA8E2CDAB9430099F2F5 /* UIButton+Style.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		151A5F612DA8EE35003C7BAD /* Future & Deffered */ = {
+			isa = PBXGroup;
+			children = (
+				151A5F622DA8EE7A003C7BAD /* FutureAndDefferedViewController.swift */,
+				151A5F642DA8EED6003C7BAD /* ViewModel */,
+			);
+			path = "Future & Deffered";
+			sourceTree = "<group>";
+		};
+		151A5F642DA8EED6003C7BAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				151A5F652DA905EC003C7BAD /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		151DF0F42CFF78C400DB3409 /* Base */ = {
@@ -352,10 +373,11 @@
 		15D631F02DA6A9080051582C /* Combine */ = {
 			isa = PBXGroup;
 			children = (
-				159940A82DA7E0BF00D69AD1 /* Multithreading */,
 				159940A72DA7E0B100D69AD1 /* Starting */,
 				15D631F62DA6AC2D0051582C /* PasssThroughSubject */,
 				15D631F32DA6A93F0051582C /* CurrentValueSubject */,
+				159940A82DA7E0BF00D69AD1 /* Multithreading */,
+				151A5F612DA8EE35003C7BAD /* Future & Deffered */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -591,6 +613,7 @@
 			files = (
 				15D631F82DA6AC500051582C /* PassThroughSubjectViewController.swift in Sources */,
 				151DF0F62CFF78D100DB3409 /* TargetType.swift in Sources */,
+				151A5F632DA8EE7A003C7BAD /* FutureAndDefferedViewController.swift in Sources */,
 				15A70C002D235A770093A0B0 /* Generated-Images.swift in Sources */,
 				159940AF2DA802A100D69AD1 /* CommentsViewModel.swift in Sources */,
 				15D631F22DA6A9210051582C /* TestViewController.swift in Sources */,
@@ -611,6 +634,7 @@
 				153DEC2E2CF3B81200037DBF /* SceneDelegate.swift in Sources */,
 				153DEC3F2CF3BBB800037DBF /* LoginViewModel.swift in Sources */,
 				153DEC2F2CF3B81200037DBF /* ViewController.swift in Sources */,
+				151A5F662DA905EC003C7BAD /* NotificationViewModel.swift in Sources */,
 				151DF0F82CFF7BD100DB3409 /* BaseApi.swift in Sources */,
 				1518BA842CDA8C5A0099F2F5 /* Button+Style.swift in Sources */,
 				151DF0FB2CFF954700DB3409 /* UsersNetworking.swift in Sources */,
